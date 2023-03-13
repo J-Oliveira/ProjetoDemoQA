@@ -5,7 +5,7 @@ Este projeto é destinado a automações de teste Front-end E2E funcional da pla
 ### Ferramentas Utilizadas ###
  * Cypress
  * JavaScript
- * Mochawesome
+ * Allure Reports
  * Cucumber
 
 ### Para que serve este repo? ###
@@ -30,6 +30,10 @@ Rodando os testes:
 e2e:
 
 - Nesta pasta contém o arquivo com a escrita em BDD com Gherkin
+
+plugins:
+
+- index.js: - Dependência do Allure.
 
 Support:
 
